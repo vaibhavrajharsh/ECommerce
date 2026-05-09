@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ProductContext } from "../Utils/Context";
+import { ProductContext } from "../utils/Context";
 import Loader from "./Loader";
 import axios from "../utils/axios";
 
