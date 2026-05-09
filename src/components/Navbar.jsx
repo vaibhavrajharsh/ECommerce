@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { ProductContext } from "../Utils/Context";
+import { ProductContext } from "../utils/Context";
 
 const Navbar = () => {
   const [products] = useContext(ProductContext);
